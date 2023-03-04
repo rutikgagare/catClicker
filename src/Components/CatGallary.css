@@ -1,0 +1,10 @@
+.cat-gallary{
+    display: flex;
+    justify-content: center;
+    gap:1rem;
+    margin: 1rem 0;
+    padding: 1rem;
+    flex-wrap: wrap;
+    border: 2px solid black;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}

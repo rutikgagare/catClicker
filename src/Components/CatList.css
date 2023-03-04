@@ -1,0 +1,16 @@
+.cat-list{
+    padding: 0.3rem 0;
+    border: 2px solid black;
+    border-radius: 0.4rem;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    gap: 0.5rem;
+    width: 30%;
+}
+
+@media only screen and (max-width: 800px) {
+    .cat-list{
+        width: 100%;
+    }
+}

@@ -1,0 +1,19 @@
+.cat-profile{
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    border-radius: 0.5rem;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.cat-profile img{
+    width: 20rem;
+    height: 13rem;
+}
+
+.cat-profile h5{
+    font-weight:normal;
+    font-size: 1rem;
+}

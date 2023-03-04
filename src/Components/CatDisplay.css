@@ -1,0 +1,30 @@
+.cat-display{
+    padding: 1rem;
+    border-radius: 0.3rem;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-height: 80vh;
+}
+
+.cat-display h5{
+    /* border: 2px solid red; */
+    font-size: 1.2rem;
+    font-weight: normal;
+    margin: 0.6rem 0;
+}
+
+.cat-display img{
+    width: 98%;
+    height: 15rem;
+    margin: 0.6rem 0;
+}
+
+@media only screen and (max-width: 800px) {
+    .cat-display{
+        width: 100%;
+        margin: auto;
+    }
+}
