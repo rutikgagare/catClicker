@@ -75,12 +75,13 @@ function App() {
     const clickIncrementData = data.map(obj => {
 
       if (obj.name === catName) {
-        return { ...obj, counter:obj.counter+=1};
+        return { ...obj, counter:++obj.counter};
       }
       else {
         return { ...obj };
       }
     });
+    
     setData(clickIncrementData);
 
     const displayData = data.filter((item)=>{

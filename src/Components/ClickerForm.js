@@ -22,7 +22,7 @@ function ClickerForm(props) {
   function submitHandler(e){
     e.preventDefault();
     const newData = {
-      name,url,counter
+      name,url,counter:+counter
     };
     props.onSubmit(newData);
 
