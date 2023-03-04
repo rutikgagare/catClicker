@@ -9,7 +9,7 @@
 }
 
 .cat-profile img{
-    width: 95%;
+    width: 90%;
     height: 13rem;
 }
 
@@ -18,8 +18,8 @@
     font-size: 1rem;
 }
 
-/* @media only screen and (max-width: 800px) {
+@media only screen and (max-width: 800px) {
     .cat-profile{
         margin: auto;
     }
-} */
+}
