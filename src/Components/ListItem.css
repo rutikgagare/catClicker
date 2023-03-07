@@ -7,6 +7,10 @@
     gap: 0.5rem;
 }
 
+.list-item:hover{
+    background-color: rgb(86, 181, 236);
+}
+
 .list-item h5{
     font-size: 1.2rem;
     font-weight:normal;
