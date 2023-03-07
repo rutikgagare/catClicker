@@ -1,13 +1,13 @@
 .cat-gallary{
+    width: 90%;
     display: flex;
     justify-content: center;
     gap:1rem;
-    margin: 1rem 0;
+    margin: 1rem auto;
     padding: 1rem;
     flex-wrap: wrap;
     border: 2px solid black;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
-    width: 90%;
 }
 
 
