@@ -1,4 +1,5 @@
 .cat-profile{
+    min-width: 330px;
     padding: 1rem;
     display: flex;
     flex-direction: column;
